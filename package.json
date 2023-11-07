@@ -1,0 +1,27 @@
+{
+  "name": "beer",
+  "version": "1.0.0",
+  "description": "Node.js Rest Api with Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Martin A. La Regina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "compression": "^1.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinlaregina/beertap.git"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "bugs": {
+    "url": "https://github.com/martinlaregina/beertap/issues"
+  },
+  "homepage": "https://github.com/martinlaregina/beertap#readme"
+}
