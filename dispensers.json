@@ -1,0 +1,92 @@
+[
+  {
+    "id": "25d7879f-83db-403d-b171-1bf31e65f4eb",
+    "flow_volume": 1,
+    "amount": 0,
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:00:00Z",
+        "closed_at": "2023-01-01T02:10:00Z",
+        "total_spend": 31536600
+      },
+      {
+        "opened_at": "2022-01-01T02:10:00Z",
+        "closed_at": "2023-01-01T02:10:00Z",
+        "total_spend": 31536000
+      }
+    ]
+  },
+  {
+    "id": "be737654-071a-489a-b1dc-5fb97a4fda84",
+    "flow_volume": 1.4,
+    "amount": 0,
+    "usages": [
+      {
+        "opened_at": "2023-01-01T02:10:00Z",
+        "closed_at": "2023-01-01T02:11:00Z",
+        "total_spend": 84
+      }
+    ]
+  },
+  {
+    "id": "26b1c8e9-2c7c-4c86-8512-7f13a96a7234",
+    "flow_volume": 0.0653,
+    "amount": 0,
+    "usages": [
+      {
+        "opened_at": "2023-01-01T02:11:00Z",
+        "closed_at": "2023-01-01T02:12:00Z",
+        "total_spend": 3.9179999999999997
+      }
+    ]
+  },
+  {
+    "id": "ceab940b-c8b4-4980-b526-5514eb2f17eb",
+    "flow_volume": 0.05,
+    "amount": 387,
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:10:00Z",
+        "closed_at": "2022-01-01T02:13:00Z",
+        "total_spend": 9
+      },
+      {
+        "opened_at": "2022-01-01T02:13:00Z",
+        "closed_at": "2022-01-01T02:19:00Z",
+        "total_spend": 18
+      },
+      {
+        "opened_at": "2022-01-01T02:19:00Z",
+        "closed_at": "2022-01-01T02:19:00Z",
+        "total_spend": 0
+      },
+      {
+        "opened_at": "2022-01-01T02:25:00Z",
+        "closed_at": "2022-01-01T03:25:00Z",
+        "total_spend": 180
+      },
+      {
+        "opened_at": "2022-01-01T04:25:00Z",
+        "closed_at": "2022-01-01T05:25:00Z",
+        "total_spend": 180
+      }
+    ]
+  },
+  {
+    "id": "a48d4830-b866-45df-a8ce-4bcf27a4fea9",
+    "flow_volume": 0.005,
+    "amount": 3.005,
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:10:00Z",
+        "closed_at": "2022-01-01T02:10:01Z",
+        "total_spend": 0.005
+      },
+      {
+        "opened_at": "2022-01-01T02:10:01Z",
+        "closed_at": "2022-01-01T02:20:01Z",
+        "total_spend": 3
+      }
+    ]
+  }
+]

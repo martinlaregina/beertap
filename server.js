@@ -1,6 +1,6 @@
 const express = require('express');
-const app = express();
 var compression = require('compression');
+const app = express();
 
 // parse requests of content-type - application/json
 app.use(express.json());
@@ -11,32 +11,23 @@ app.use(compression());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
 
-app.post('/', (req, res) => {
-    res.send('Dispenser POST')
-})
-
-app.put('/', (req, res) => {
-    res.send('Dispenser PUT')
-})
-
-app.get('/', (req, res) => {
-    res.send('Dispenser GET')
-})
-
 // Validate JSON request
 app.use((error, req, res, next) => {
-  if (error !== null) {
-    return res.status(404).json({
-      error: 'invalidJson'
-    });
-  }
-  return next();
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Max-Age', '1800');
+  res.setHeader('Access-Control-Allow-Headers', 'content-type');
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'PUT, POST, GET, DELETE, PATCH, OPTIONS'
+  );
+  next();
 });
 
-// Set port, listen for requests
-const PORT = 3001;
+// API Routes
+app.use('/', require('./routes/dispenser.routes'));
 
-app.listen(PORT, 'localhost', (err) => {
+app.listen(3001, 'localhost', (err) => {
   if (err) {
     console.log('Error');
   } else {
