@@ -99,7 +99,7 @@ exports.status = (req, res) => {
               amount+= usage.total_spend;
             }
           };
-          element.amount = amount;
+          element.amount = parseFloat(amount * 12.25).toFixed(3);
         } else {
           return res.status(409).json({error: 'Accepted status values open/close'});
         }

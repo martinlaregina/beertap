@@ -88,5 +88,47 @@
         "total_spend": 3
       }
     ]
+  },
+  {
+    "id": "8c67efdc-d1f5-4b32-be3d-fe224891db8d",
+    "flow_volume": 0.064,
+    "amount": 17.247999999999998,
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:00:00Z",
+        "closed_at": "2022-01-01T02:00:22Z",
+        "total_spend": 1.408
+      }
+    ]
+  },
+  {
+    "id": "c81f0c3e-938b-4644-8193-f69cb95c5d5d",
+    "flow_volume": 0.064,
+    "amount": "17.25",
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:00:00Z",
+        "closed_at": "2022-01-01T02:00:22Z",
+        "total_spend": 1.408
+      }
+    ]
+  },
+  {
+    "id": "d13aa195-4c59-4a0f-bfcc-6588d4c2e38c",
+    "flow_volume": 0.064,
+    "amount": 0,
+    "usages": []
+  },
+  {
+    "id": "1e2a9e20-a8b1-4893-accd-d5a66ad81bf3",
+    "flow_volume": 0.064,
+    "amount": "17.248",
+    "usages": [
+      {
+        "opened_at": "2022-01-01T02:00:00Z",
+        "closed_at": "2022-01-01T02:00:22Z",
+        "total_spend": 1.408
+      }
+    ]
   }
 ]
