@@ -10,6 +10,8 @@ So, if the dispenser has configured the flow volume ratio as 0.064 litres/second
 
 **POST** -> http://localhost:3001/
 
+**BODY**
+
     {
 	    "flow_volume": 0.064
     }
@@ -21,14 +23,36 @@ So, if the dispenser has configured the flow volume ratio as 0.064 litres/second
         "flow_volume": 0.064
     }
 ---
-**PUT** -> http://localhost:3001/[dinamyc_identifier]
+**PUT** -> http://localhost:3001/[dinamyc_identifier] -> status [open/close]
+
+**BODY**
 
     {
 	    "status": "open",
 	    "updated_at": "2022-01-01T02:00:22"
     }
+
+**RESPONSE**
+
+[
+    {
+        "id": "[dinamyc_identifier]",
+        "flow_volume": 0.064,
+        "amount": "17.248",
+        "usages": [
+            {
+                "opened_at": "2022-01-01T02:00:00Z",
+                "closed_at": "2022-01-01T02:00:22Z",
+                "total_spend": 1.408
+            }
+        ]
+    }
+]
+
 ---
 **GET** -> http://localhost:3001/[dinamyc_identifier]
+
+**RESPONSE**
 
     {
 	    "amount": "17.248"
