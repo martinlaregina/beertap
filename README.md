@@ -34,7 +34,6 @@ So, if the dispenser has configured the flow volume ratio as 0.064 litres/second
 
 **RESPONSE**
 
-[
     {
         "id": "[dinamyc_identifier]",
         "flow_volume": 0.064,
@@ -47,7 +46,6 @@ So, if the dispenser has configured the flow volume ratio as 0.064 litres/second
             }
         ]
     }
-]
 
 ---
 **GET** -> http://localhost:3001/[dinamyc_identifier]
